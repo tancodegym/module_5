@@ -1,1 +1,4 @@
-<p>color works!</p>
+<div>
+<span>Pick color: </span><input type="color" name="color" id="color"  [(ngModel)]="color"><br>
+<span>Color Code: </span> <span [style.backgroundColor]="color"> {{color}}</span>
+</div>
